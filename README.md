@@ -3,6 +3,11 @@ Bot to scan TrueAchievements account, text notification when an achievement is e
 
 
 An achievement notifier using:
-1. Python as the programming language
-2. BeautifulSoup python library to scan TrueAchievements
-3. Twilio to send text message notification
+- Python as the programming language
+- BeautifulSoup python library to scan TrueAchievements
+- Twilio to send text message notification
+
+
+To run code need to have libraries installed:
+1. BeautifulSoup4 - (pip install beautifulsoup4)
+2. Requests       - (pip install requests)
