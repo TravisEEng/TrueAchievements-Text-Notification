@@ -1,13 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = "https://www.trueachievements.com/"
-content = requests.get(url)
+url = "https://www.trueachievements.com/gamer/XxXxS8TNxXxX/achievements"
+result = requests.get(url)
 
-print(content.status_code)
+print(result.status_code)
 
-print("Hello World!")
-
-#soup = BeautifulSoup(content)
+#soup = BeautifulSoup(result.content)
 
 #print(soup.prettify())
